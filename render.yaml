@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: king-xd-bot
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    healthCheckPath: /status
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    disk:
+      name: session
+      mountPath: /opt/render/project/src/auth
+      sizeGB: 1
