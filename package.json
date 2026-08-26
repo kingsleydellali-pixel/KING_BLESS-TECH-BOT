@@ -1,0 +1,38 @@
+{
+  "name": "king-xd-bot-mini",
+  "version": "1.0.0",
+  "description": "Professional WhatsApp Multi-Device Bot with Management, Downloader, and Protection Tools",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "qrcode": "^1.5.3",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.4",
+    "instagram-url-direct": "^1.0.0",
+    "tiktok-scraper-without-watermark": "^1.0.0",
+    "facebook-video-downloader": "^1.0.0",
+    "sharp": "^0.33.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^5.2.0",
+    "remove.bg": "^2.0.0",
+    "googlethis": "^1.6.1",
+    "duckduckgo-search": "^1.0.8",
+    "weather-js": "^2.0.0",
+    "newsapi": "^2.4.1",
+    "mathjs": "^11.11.0",
+    "node-fetch": "^2.6.7",
+    "moment": "^2.29.4",
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Kingsley-XMD Tech",
+  "license": "MIT"
+}
